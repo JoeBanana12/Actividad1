@@ -1,0 +1,67 @@
+/*Este codigo seria el estilo del cuerpo de la pagina*/
+body {
+    background-color: #fde7c8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilo del titulo de la pagina*/
+.titulo {
+    text-align: center;/*Hace que este centrado el codigo*/
+    margin-top: 20px;
+}
+
+
+.logo {
+    text-align: center;/*Hace que este centrada la imagen*/
+    margin: 20px 0;
+}
+
+/*Hace que cambie el tamñao del logo*/
+.logo img {
+    width: 500px;
+}
+
+/* Contenedor con grid(permite crear estructuras de 
+dos dimensiones (filas y columnas)) para crear 2 columnas */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);/*Aca seria las 2 columnas iguales*/
+    gap: 20px;/*Y este seria el espacio entre lso cuadros*/
+    padding: 20px;
+}
+
+/*El estilo para cada cuadro*/
+.cuadro {
+    background-color: #f5cfa8;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/*Este seria para las imagenes dentro de los cuadros*/
+.cuadro img {
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/*El estilo del footer o el final de la pagina*/
+footer {
+    background-color: #f0b97d;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Este seria para que el formulario este centrado*/
+.sugerencias {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea, button {
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px;
+}

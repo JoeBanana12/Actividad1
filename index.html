@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!--Nombre de la Pestaña del navegador que utilicemos-->
+    <title>Recetas Con Kira</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--Titulo de la pagina-->
+    <h1 class="titulo">Recetas Con Kira</h1>
+
+    
+    <div class="logo">
+        <img src="Recetas.jpg" alt="Libro de Recetas">
+    </div>
+
+    <!--Esta parte son de los dos primeros cuadros que vemos el codigo que vemos nos 
+    permite crear una cuadricula que combinan texto e imagenes -->
+    <section class="grid">
+
+        <div class="cuadro">
+            <h2>"Cualquiera puede cocinar"</h2>
+            <p>- Michael Jackson</p>
+            <img src="boloñesa.jpg" alt="Pasta">
+        </div>
+
+        <div class="cuadro">
+            <h2>"Cocinar es transformar amor en alimento"</h2>
+            <p>- Gordon Ramsay</p>
+            <img src="Comida Vegana.jpg" alt="Vegano">
+        </div>
+
+        <!--Ahora esto es para la mision y vision que eso aparece mas abajo
+        y se ocupan el mismo codigo de arriba-->
+        <div class="cuadro">
+            <h3>Misión</h3>
+            <p>
+                Compartir recetas fáciles y deliciosas que motiven
+                a cocinar en casa con gusto y creatividad.
+            </p>
+        </div>
+
+        <div class="cuadro">
+            <h3>Visión</h3>
+            <p> 
+                Inspirar a las personas a ver la cocina como un
+                espacio de unión, aprendizaje y disfrute. 
+            </p>
+        </div>
+
+    </section>
+
+    <!--Aca espieza el pie o el final de la pagina-->
+    <footer>
+        <p>1999 Recetas Con Kira. Derechos Reservados.</p>
+
+        <!--Aca creamos un formulario para poder agregar mas recetas-->
+        <form class="sugerencias">
+            <h4>Sugerir Recetas</h4>
+
+            <!--Este seria el campo de texto-->
+            <label>Nombre</label>
+            <input type="text" required>
+
+            <!--Area del texto-->
+            <label>Receta sugerida</label>
+            <textarea rows="3" required></textarea>
+
+            <!--Este es el boton para enviar-->
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+
+</body>
+</html>
